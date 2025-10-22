@@ -1,0 +1,7 @@
+Java is a Pass-by-Value programming language.
+This means that when you call a method, a copy of the variable’s value is passed to the method — not the original variable itself.
+For primitive data types (like int, float, boolean), the actual value is copied.
+Any changes made inside the method do not affect the original variable.
+For objects, Java passes a copy of the reference (the memory address) — not the actual object.
+This allows the method to modify the object’s internal data (because both references point to the same object in memory),but if you reassign the reference itself inside the method, it will not affect the original reference outside the method.
+Therefore, even though it looks like pass by reference when working with objects, it’s still pass by value of the reference.
