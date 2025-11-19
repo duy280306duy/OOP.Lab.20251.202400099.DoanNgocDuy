@@ -1,0 +1,2 @@
+-If choose "Cancel", nothing happens. Eclipse will  not run the code file
+-To customize options for users to choose between 2 options, we can use the code: (option==JOptionPane.YES_OPTION?"Yes":"No")
